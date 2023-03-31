@@ -104,7 +104,7 @@ class Viaje {
 
 
     public function __toString(){
-        //$segundoLlamarArray = $this->datosPasajeros;
+        
         return "Codigo: ".$this->getCodigo()."\n".
         "Destino: ".$this->getDestino()."\n".
         "Cantidad maxima de pasajeros: ".$this->getCantMax()."\n".
