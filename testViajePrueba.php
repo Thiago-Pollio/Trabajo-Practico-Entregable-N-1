@@ -80,7 +80,7 @@ while ($salir == false) {
                 if ($funcionModificar == true) {
                     echo "Los datos fueron modificados.";
                 } else {
-                    echo "No existe el documento: " . $nDni;
+                    echo "No existe el documento: " . $nDni.".". "\n";
                 }
                 
                 break;
